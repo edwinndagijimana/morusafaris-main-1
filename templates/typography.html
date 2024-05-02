@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Tours{% endblock %}
+{% block content %}
+      <!-- Breadcrumbs -->
+      <section class="breadcrumbs-custom-inset">
+        <div class="breadcrumbs-custom context-dark bg-overlay-60">
+          <div class="container">
+            <h2 class="breadcrumbs-custom-title">Safaris</h2>
+            <ul class="breadcrumbs-custom-path">
+              <li><a href="index.html">Tours</a></li>
+              <li class="active">Safaris</li>
+            </ul>
+          </div>
+          <div class="box-position" style="background-image: url(https://c4.wallpaperflare.com/wallpaper/538/653/270/african-elephants-mother-and-adorable-babies-hd-wallpaper-wallpaper-preview.jpg);"></div>
+        </div>
+      </section>
+      <!-- Base typography-->
+      <section class="section section-sm bg-default">
+        <div class="container">
+          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown">Hot Safaris</span></h3>
+          <div class="row row-sm row-40 row-md-50">
+
+            <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'safaris'%}"><img src="https://wallpapercave.com/wp/wp1918972.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'safaris'%}"><span style="font-weight: 600;">Safari Symphony: An East African Serenade</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Experience a magnificent odyssey filled with vibrant cultures, iconic wildlife, and pristine coastlines. This luxurious and diverse journey combines thrilling safaris with immersive experiences, culminating in the tropical relaxation of Mombasa – a harmonious crescendo to your East African adventure.
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$10000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+             <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'visitkenya'%}"><img src="https://wallpapers.com/images/featured/kenya-gyw0xwsueai483vj.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'visitkenya'%}"><span style="font-weight: 600;">Karibu Kenya</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Immerse yourself in the vibrant tapestry of Kenya, a captivating land that unveils a kaleidoscope of
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$5000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+             <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'visitrwanda' %}"><img src="https://c4.wallpaperflare.com/wallpaper/25/252/855/africa-field-hill-landscape-wallpaper-preview.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'visitrwanda' %}"><span style="font-weight: 600;">Whispers of the Wild: A Ugandan & Rwandan Honeymoon</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Embark on a romantic journey through the heart of East Africa.  From the lushness of Uganda's rainforests to the majesty of Rwanda's Volcanoes National Park,  this itinerary blends thrilling treks, enchanting wildlife encounters, and moments of shared serenity, promising an unforgettable honeymoon experience.
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$7000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+             <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'ultimateeastafrica' %}"><img src="https://c4.wallpaperflare.com/wallpaper/764/431/702/river-trees-forest-clouds-wallpaper-thumb.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'ultimateeastafrica' %}"><span style="font-weight: 600;">Ultimate East African Odyssey</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Indulge in an extraordinary adventure through the heart of East Africa. From gorilla encounters to pristine beaches, wildlife safaris to cultural immersion, this itinerary combines the very best of Rwanda, Kenya, Uganda, Tanzania, and Zanzibar for an unforgettable and luxurious experience.
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$8000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+             <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'visituganda' %}"><img src="https://c0.wallpaperflare.com/preview/429/448/942/green-tree-and-ocean.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'visituganda' %}"><span style="font-weight: 600;">Heart of the Pearl: An Unforgettable Ugandan Adventure</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Experience the diverse beauty and rich heritage of Uganda, known as the "Pearl of Africa". Encounter majestic mountain gorillas, discover mesmerizing landscapes, embark on thrilling safaris, and immerse yourself in the vibrant local culture. This journey will leave you with lifelong memories.
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$5000</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+             <div class="col-sm-6 col-md-12 wow fadeInRight">
+              <!-- Product Big-->
+              <article class="product-big">
+                <div class="unit flex-column flex-md-row align-items-md-stretch">
+                  <div class="unit-left"><a class="product-big-figure" href="{% url 'visittz' %}"><img src="https://wallpapers.com/images/hd/tanzania-zanzibar-beach-618tzdn90cdbzqrw.jpg" alt="" width="600" height="366"/></a></div>
+                  <div class="unit-body">
+                    <div class="product-big-body">
+                      <h4 class="product-big-title"><a href="{% url 'visittz' %}"><span style="font-weight: 600;">Coastal Charms</span></a></h4>
+                      <div class="group-sm group-middle justify-content-start">
+                        <div class="product-big-rating"><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star"></span><span class="icon material-icons-star_half"></span></div><a class="product-big-reviews" href="#">4 customer reviews</a>
+                      </div>
+                      <p class="product-big-text">Dive into the turquoise waters and vibrant coastal cultures of East Africa. From Kenya's pristine shores to the spice-scented air of Zanzibar, this 10-day adventure invites you to unwind on idyllic beaches, explore historical towns, and savor the flavors of the Swahili coast.
+                      </p><a class="button button-black-outline button-ujarak" href="{% url 'booking' %}">Buy This Tour</a>
+                      <div class="product-big-price-wrap"><span class="product-big-price">$6400</span></div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+          </div>
+        </div>
+        </div>
+      </section>
+{% endblock %}
